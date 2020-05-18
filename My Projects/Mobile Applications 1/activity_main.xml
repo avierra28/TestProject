@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#23FF9800"
+        android:forceDarkAllowed="false"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/front_card"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="@string/enter_front_of_the_card"
+            android:inputType="textPersonName"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/back_card"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:ems="10"
+            android:hint="@string/enter_the_answer_to_the_card"
+            android:inputType="textPersonName"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="add_card"
+            android:text="@string/add_to_deck" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="@string/choose_your_card_from_the_spinner_below_the_answer_will_be_displayed_below_the_spinner"
+            android:textColor="#070606"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/my_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:scrollbarStyle="insideOverlay"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/answer_text"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="@string/answer_will_be_displayed_here"
+            android:textColor="#050505"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
