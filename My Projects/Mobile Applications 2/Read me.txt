@@ -1,0 +1,3 @@
+This is an expense tracking app that uses an SQLite database to track the users work and show it back to them.
+
+The source java code is in the Java Files and the .xml layouts are in the Layout Files.

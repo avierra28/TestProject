@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewEntry">
+
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="677dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/viewLabel"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:autofillHints=""
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/view_an_entry_page"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/mySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:text="@string/result_set_will_be_enabled_below"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:autofillHints=""
+            android:editable="false"
+            android:ems="10"
+            android:hint="@string/name_will_appear_here"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:autofillHints=""
+            android:editable="false"
+            android:ems="10"
+            android:hint="@string/category_will_appear_here"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:autofillHints=""
+            android:editable="false"
+            android:ems="10"
+            android:hint="@string/date_will_appear_here"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:autofillHints=""
+            android:editable="false"
+            android:ems="10"
+            android:hint="@string/amount_will_appear_here"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:autofillHints=""
+            android:editable="false"
+            android:scrollHorizontally="false"
+            android:ems="10"
+            android:hint="@string/note_will_appear_here"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:text="Go back" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

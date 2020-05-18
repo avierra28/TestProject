@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="391dp"
+        android:layout_height="677dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/label1"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:autofillHints=""
+            android:editable="false"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:inputType="textPersonName"
+            android:text="@string/expense_tracking_app"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/createEntry"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="@string/create_a_new_entry"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/viewEntry"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="@string/view_an_existing_entry"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/modify"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="@string/modify_an_entry"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="Delete an Entry"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/categories"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="@string/categories"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
