@@ -3,7 +3,8 @@ package largestSmallest;
 import java.util.Arrays;
 import java.util.Random;
 
-public class largestSmallest {
+public class largestSmallest 
+{
 
 	public static void main(String[] args) 
 	{
