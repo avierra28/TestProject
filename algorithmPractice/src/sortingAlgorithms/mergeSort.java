@@ -4,19 +4,19 @@ import java.util.Arrays;
 import java.util.Random;
 
 /*
- * Insertion Sort Sort Program
+ * Merge Sort Program
  * Created by: Anthony Vierra
- * Concept: Starts at position 1 in the array and constantly updates the smallest value to be
- * at the beginning of the array. This is more robust than the bubble sort.
+ * Concept: Works on the concept of breaking down an array into smaller portions in hopes to
+ * simplify the problem. This works by recursion.
  * 
  *  Time Complexities:
- *  Best: O(n) (If the array is already sorted)
- *  Worst: O(n^2)
- *  There's no way to improve upon O(n^2) as the nature of the algorithm does not allow us to do
- *  so.
+ *  Best: O(nlogn) (If the array is already sorted)
+ *  Worst: O(nlogn)
+ *  There's no way to improve upon O(nlogn) as the nature of the algorithm does not allow us
+ *  to do so.
  *  
  *  Space Complexity:
- *  O(1)
+ *  O(n)
  */
 
 public class mergeSort 
