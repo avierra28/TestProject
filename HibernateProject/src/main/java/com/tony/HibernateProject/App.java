@@ -47,24 +47,3 @@ public class App
     }
     
 }
-
-
-
-
-//Faculty obj1 = new Faculty(1, "Steve", "Smith", 67580.50),
-//obj2 = new Faculty(2, "Bruce", "Wayne", 150000.75);
-//
-//// Set up a configuration.
-//Configuration myConfiguration = new Configuration().configure()
-//.addAnnotatedClass(Faculty.class);
-//
-//// Now set up a session.
-//SessionFactory myFactory = myConfiguration.buildSessionFactory();
-//Session mySession = myFactory.openSession();
-//Transaction transaction = mySession.beginTransaction();
-//
-//mySession.save(obj1);
-//mySession.save(obj2);
-//
-//
-//transaction.commit();
