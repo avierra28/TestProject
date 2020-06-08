@@ -1,0 +1,9 @@
+***** Read Me *****
+
+This App makes use of services that play these sounds in the background.
+It's a nice relaxation app for users.
+
+
+** The Java source code will be in the java folder, and the .xml layouts will be in the layouts folder.
+
+All this was done in an android studio environment.
