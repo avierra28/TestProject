@@ -48,11 +48,6 @@
     	<artifactId>spring-boot-starter-data-jpa</artifactId>
     	<version>2.3.0.RELEASE</version>
     </dependency>
-    <dependency>
-    	<groupId>org.hibernate.validator</groupId>
-    	<artifactId>hibernate-validator</artifactId>
-    	<version>6.0.17.Final</version>
-    </dependency>
   </dependencies>
   <description>This project will use AWT and Swift to create a database project also while using hibernate.</description>
 </project>
