@@ -2,7 +2,6 @@ package leetcode;
 
 import java.util.*;
 
-
 public class PascalsTriangle 
 {
 	// Define the variables needed for this function.
@@ -20,13 +19,16 @@ public class PascalsTriangle
 		
 		// Call the function to display it.
 		displayTriangle();
+		
+		// Close the scanner.
+		scanner.close();
 	}
 	
 	// Fill the hashmap with pascal arithmetic.
 	public static void pascal()
 	{
 		// Declare a temp list.
-		ArrayList<Integer> tempArrayList, holderList;
+		ArrayList<Integer> tempArrayList;
 		
 		// Gather input from user.
 		System.out.print("Number of rows for the pascal triangle: ");
@@ -64,15 +66,15 @@ public class PascalsTriangle
 			{
 				// Create a temporary arraylist.
 				tempArrayList = new ArrayList<Integer>();
-				holderList = new ArrayList<Integer>();
+				myList = new ArrayList<Integer>();
 				
 				tempArrayList.add(1);
 				
 				// If not 1 or 2 continue like normal.
-				holderList = hashMap.get(i - 1);
+				myList = hashMap.get(i - 1);
 				
-				for (int j = 0; j < holderList.size() - 1; j++) 
-					tempArrayList.add(holderList.get(j) + holderList.get(j + 1));
+				for (int j = 0; j < myList.size() - 1; j++) 
+					tempArrayList.add(myList.get(j) + myList.get(j + 1));
 				
 				tempArrayList.add(1);
 				
