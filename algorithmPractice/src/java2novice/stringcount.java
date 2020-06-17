@@ -1,4 +1,4 @@
-package vowelCount;
+package java2novice;
 
 public class stringcount 
 {

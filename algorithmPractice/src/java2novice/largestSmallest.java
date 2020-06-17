@@ -1,4 +1,4 @@
-package largestSmallest;
+package java2novice;
 
 import java.util.Arrays;
 import java.util.Random;
