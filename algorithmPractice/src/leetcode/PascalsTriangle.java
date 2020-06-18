@@ -95,7 +95,7 @@ public class PascalsTriangle
 		for (int i = 1; i <= hashMap.size(); i++) 
 		{
 			for (int j = hashMap.size(); j > i; j--) 
-				System.out.print("  ");
+				System.out.print(" ");
 
 			// Print out line by line.
 			System.out.println(hashMap.get(i));
