@@ -1,4 +1,4 @@
-package java2novice;
+package dataStructures.LinkedList;
 
 
 public class RemoveDuplicates
