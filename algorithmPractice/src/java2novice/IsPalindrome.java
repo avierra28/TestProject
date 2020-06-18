@@ -1,12 +1,7 @@
 package java2novice;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
 import java.util.Stack;
 
-import java2novice.MiddleElement.Node;
 
 public class IsPalindrome 
 {
