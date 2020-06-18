@@ -47,9 +47,6 @@ public class PascalsTriangle
 
 				// Populate the hashmap.
 				hashMap.put(i, myList);
-
-				// Then ascribe a new arraylist.
-				myList = new ArrayList<Integer>();
 			}
 			else if (i == 2) 
 			{
@@ -60,16 +57,11 @@ public class PascalsTriangle
 				// Populate the hashmap.
 				hashMap.put(i, myList);
 
-				// Then ascribe a new arraylist.
-				myList = new ArrayList<Integer>();
-
 			}
 			else
 			{
 				// Create a temporary arraylist.
 				tempArrayList = new ArrayList<Integer>();
-				myList = new ArrayList<Integer>();
-
 				tempArrayList.add(1);
 
 				// If not 1 or 2 continue like normal.
@@ -84,6 +76,8 @@ public class PascalsTriangle
 				hashMap.put(i, tempArrayList);
 
 			}
+			// Then ascribe a new arraylist.
+			myList = new ArrayList<Integer>();
 		}
 
 	}
@@ -101,7 +95,7 @@ public class PascalsTriangle
 		for (int i = 1; i <= hashMap.size(); i++) 
 		{
 			for (int j = hashMap.size(); j > i; j--) 
-				System.out.print(" ");
+				System.out.print("  ");
 
 			// Print out line by line.
 			System.out.println(hashMap.get(i));
