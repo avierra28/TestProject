@@ -1,4 +1,4 @@
-package java2novice;
+package dataStructures.BinaryTree;
 
 public class BinaryTree {
 	
