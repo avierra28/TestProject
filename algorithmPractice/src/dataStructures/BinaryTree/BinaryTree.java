@@ -6,7 +6,18 @@ public class BinaryTree {
 	private BinaryTree left, right;
 	private Integer dataInteger;
 	
+	public BinaryTree()
+	{
+		super();
+	}
 	
+	public BinaryTree(BinaryTree left, BinaryTree right, Integer dataInteger) {
+		super();
+		this.left = left;
+		this.right = right;
+		this.dataInteger = dataInteger;
+	}
+
 	public BinaryTree(Integer dataInteger) {
 		super();
 		this.dataInteger = dataInteger;
