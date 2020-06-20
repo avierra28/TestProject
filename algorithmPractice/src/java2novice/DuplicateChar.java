@@ -20,7 +20,7 @@ public class DuplicateChar
 	{
 		HashMap<Character, Integer> hashMap = new HashMap<Character, Integer>();
 		List<Integer> myList = new ArrayList<Integer>();
-		StringBuilder myBuilder = new StringBuilder(str);
+		StringBuffer myBuilder = new StringBuffer(str);
 		
 		System.out.println(myBuilder);
 		
