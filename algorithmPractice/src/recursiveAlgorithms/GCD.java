@@ -14,6 +14,8 @@ public class GCD {
 		int num2 = scanner.nextInt();
 		
 		System.out.println("Greatest common divisor: " + func1(num1, num2));
+		
+		scanner.close();
 	}
 	
 	public static int func1(int n1, int n2) {
