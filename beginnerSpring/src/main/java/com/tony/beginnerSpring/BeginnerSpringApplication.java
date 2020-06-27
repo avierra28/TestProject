@@ -1,9 +1,7 @@
 package com.tony.beginnerSpring;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @SpringBootApplication
@@ -18,6 +16,7 @@ public class BeginnerSpringApplication
         
 		System.out.println(myBean);
 		System.out.println(myBean2);
+		
 	}
 
 }
