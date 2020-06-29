@@ -16,6 +16,7 @@ public class BeginnerSpringApplication
         
 		System.out.println(myBean);
 		System.out.println(myBean2);
+		System.out.println("End Project");
 		
 	}
 
