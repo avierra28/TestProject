@@ -28,6 +28,13 @@ public class Driver {
 				System.out.println("Node inserted.\n");
 				break;
 			}
+			case 2:
+			{
+				System.out.println("Enter node to delete: ");
+				binaryTree.delete(scanner.nextInt());
+				
+				break;
+			}
 			case 3:
 			{
 				System.out.println("\nCurrent tree: ");
@@ -36,7 +43,20 @@ public class Driver {
 				
 				break;
 			}
+			case 4:
+			{
+				System.out.println("The number of nodes: " + binaryTree.countNodes());
+				
+				break;
+			}
 			case 5:
+			{
+				System.out.print("Enter value to find: ");
+				System.out.println(binaryTree.search(scanner.nextInt()));
+				
+				break;
+			}
+			case 6:
 			{
 				flag = false;
 				break;
@@ -54,11 +74,12 @@ public class Driver {
 		System.out.println("2.) Delete a node");
 		System.out.println("3.) Display the tree");
 		System.out.println("4.) Get number of nodes in tree");
-		System.out.println("5.) Quit");
-		System.out.print("Your choice (1 - 5): ");
+		System.out.println("5.) Find a node");
+		System.out.println("6.) Quit");
+		System.out.print("Your choice (1 - 6): ");
 		int num = scanner.nextInt();
 		
-		while(num < 1 || num > 5)
+		while(num < 1 || num > 6)
 		{
 			System.out.print("Error. Enter again: ");
 			num = scanner.nextInt();
