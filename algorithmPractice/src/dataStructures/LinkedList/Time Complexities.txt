@@ -1,0 +1,24 @@
+Information and Time Complexities on Linked Lists.
+
+---------------------------------------------
+Find middle element.
+
+Time complexity: O(n + n/2) = O(n) linear time.
+
+
+---------------------------------------------
+Remove duplicates.
+
+Time complexity: O(n) = linear time.
+
+---------------------------------------------
+Remove last node.
+
+Time complexity: O(n) = linear time
+
+---------------------------------------------
+Reverse list.
+
+Time complexity: O(n) = linear time.
+
+
