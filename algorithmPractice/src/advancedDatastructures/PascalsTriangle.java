@@ -4,15 +4,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class PascalsTriangle 
-{
+public class PascalsTriangle {
 	// Define the variables needed for this function.
 	private static HashMap<Integer, ArrayList<Integer>> hashMap;
 	private static ArrayList<Integer> myList;
 	private static Scanner scanner;
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		// Call function to initialize everything.
 		initialize();
 
@@ -27,8 +25,7 @@ public class PascalsTriangle
 	}
 
 	// Fill the hashmap with pascal arithmetic.
-	public static void pascal()
-	{
+	public static void pascal() {
 		// Declare a temp list.
 		ArrayList<Integer> tempArrayList;
 
@@ -37,19 +34,15 @@ public class PascalsTriangle
 		int numRows = scanner.nextInt();
 
 		// Begin the display.
-		for (int i = 1; i <= numRows; i++) 
-		{
+		for (int i = 1; i <= numRows; i++) {
 			// Fill the pascal triangle manually for the first two.
-			if(i == 1)
-			{
+			if (i == 1) {
 				// Add 1 to the list.
 				myList.add(1);
 
 				// Populate the hashmap.
 				hashMap.put(i, myList);
-			}
-			else if (i == 2) 
-			{
+			} else if (i == 2) {
 				// Add 1 to the list.
 				myList.add(1);
 				myList.add(1);
@@ -57,9 +50,7 @@ public class PascalsTriangle
 				// Populate the hashmap.
 				hashMap.put(i, myList);
 
-			}
-			else
-			{
+			} else {
 				// Create a temporary arraylist.
 				tempArrayList = new ArrayList<Integer>();
 				tempArrayList.add(1);
@@ -67,7 +58,7 @@ public class PascalsTriangle
 				// If not 1 or 2 continue like normal.
 				myList = hashMap.get(i - 1);
 
-				for (int j = 0; j < myList.size() - 1; j++) 
+				for (int j = 0; j < myList.size() - 1; j++)
 					tempArrayList.add(myList.get(j) + myList.get(j + 1));
 
 				tempArrayList.add(1);
@@ -82,19 +73,16 @@ public class PascalsTriangle
 
 	}
 
-	public static void initialize() 
-	{
+	public static void initialize() {
 		// Initialize everything.
 		hashMap = new HashMap<Integer, ArrayList<Integer>>();
 		myList = new ArrayList<Integer>();
 		scanner = new Scanner(System.in);
 	}
 
-	public static void displayTriangle()
-	{
-		for (int i = 1; i <= hashMap.size(); i++) 
-		{
-			for (int j = hashMap.size(); j > i; j--) 
+	public static void displayTriangle() {
+		for (int i = 1; i <= hashMap.size(); i++) {
+			for (int j = hashMap.size(); j > i; j--)
 				System.out.print(" ");
 
 			// Print out line by line.
@@ -102,14 +90,3 @@ public class PascalsTriangle
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
