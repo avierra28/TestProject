@@ -5,20 +5,29 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class PascalsTriangle {
+	
+	/*
+	 * Pascal triangle is a triangle where each number is the sum of the numbers directly above it.
+	 * 
+	 * Thime complexity = O(n^2) due to the nested for loops in the pascal method and display method.
+	 */
+	
 	// Define the variables needed for this function.
 	private static HashMap<Integer, ArrayList<Integer>> hashMap;
 	private static ArrayList<Integer> myList;
 	private static Scanner scanner;
 
 	public static void main(String[] args) {
-		// Call function to initialize everything.
-		initialize();
-
+		
+		hashMap = new HashMap<Integer, ArrayList<Integer>>();
+		myList = new ArrayList<Integer>();
+		scanner = new Scanner(System.in);
+		
 		// Calling pascal function.
-		pascal();
+		PascalsTriangle.pascal();
 
 		// Call the function to display it.
-		displayTriangle();
+		PascalsTriangle.displayTriangle();
 
 		// Close the scanner.
 		scanner.close();
@@ -73,17 +82,13 @@ public class PascalsTriangle {
 
 	}
 
-	public static void initialize() {
-		// Initialize everything.
-		hashMap = new HashMap<Integer, ArrayList<Integer>>();
-		myList = new ArrayList<Integer>();
-		scanner = new Scanner(System.in);
-	}
 
 	public static void displayTriangle() {
 		for (int i = 1; i <= hashMap.size(); i++) {
-			for (int j = hashMap.size(); j > i; j--)
+			
+			for (int j = 0; j < hashMap.size() - i; j++) {
 				System.out.print(" ");
+			}
 
 			// Print out line by line.
 			System.out.println(hashMap.get(i));
