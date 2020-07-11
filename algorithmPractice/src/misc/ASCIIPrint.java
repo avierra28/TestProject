@@ -1,6 +1,10 @@
 package misc;
 
 public class ASCIIPrint {
+	
+	/*
+	 * Ascii print out.
+	 */
 
 	public static void main(String[] args) {
 
