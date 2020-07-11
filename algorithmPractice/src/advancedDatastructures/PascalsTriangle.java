@@ -9,7 +9,7 @@ public class PascalsTriangle {
 	/*
 	 * Pascal triangle is a triangle where each number is the sum of the numbers directly above it.
 	 * 
-	 * Thime complexity = O(n^2) due to the nested for loops in the pascal method and display method.
+	 * Time complexity = O(n^2) due to the nested for loops in the pascal method and display method.
 	 */
 	
 	// Define the variables needed for this function.
