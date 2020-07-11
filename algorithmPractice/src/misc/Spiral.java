@@ -10,6 +10,7 @@ public class Spiral
 
 	public static void main(String[] args)
 	{
+		
 		Scanner scanner = new Scanner(System.in);
 		int iteration = 0;
 		spiralString = "";
