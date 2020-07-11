@@ -6,6 +6,10 @@ public class Earnings {
 
 	public static void main(String[] args) {
 		
+		/*
+		 * Penny Conversion.
+		 */
+		
 		Scanner scanner = new Scanner(System.in);
 		
 		// Ask for how many days.
