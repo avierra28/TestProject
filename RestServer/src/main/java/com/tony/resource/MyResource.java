@@ -59,6 +59,14 @@ public class MyResource {
 		userDAO = new UserDAO();
 		return userDAO.getUser(id);
 	}
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("/getSpecial/{query}")
+	public List<Bean> special(@PathParam("query") String search) {
+		userDAO = new UserDAO();
+		return userDAO.specializedSearch(search);
+	}
 
 	@DELETE
 	@Consumes(MediaType.APPLICATION_XML)

@@ -60,4 +60,17 @@ public class UserDAO {
 		session.close();
 		return beans;
 	}
+	
+	public List<Bean> specializedSearch(String queryString) {
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		return session.createQuery(queryString).list();
+	}
 }
+
+
+
+
+
+
+
+
