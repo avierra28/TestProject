@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import org.hibernate.Query;
+import org.hibernate.query.Query;
 
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 14, 2020, 4:47:52 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+ <class name="com.tony.HibernateProject.Faculty" table="faculty_table">
+  <id name="fac_id" type="int">
+   <column name="FAC_ID"/>
+   <generator class="assigned"/>
+  </id>
+  <property access="field" generated="never" lazy="false"
+   name="fNameString" type="java.lang.String">
+   <column name="FNAMESTRING"/>
+  </property>
+  <property generated="never" lazy="false" name="lastNameString" type="java.lang.String">
+   <column name="LASTNAMESTRING"/>
+  </property>
+  <property generated="never" lazy="false" name="salary" type="double">
+   <column name="SALARY"/>
+  </property>
+ </class>
+</hibernate-mapping>
