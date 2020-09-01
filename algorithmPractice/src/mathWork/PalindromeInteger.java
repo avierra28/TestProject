@@ -6,10 +6,10 @@ public class PalindromeInteger {
 
 		int num = 15451;
 		
-		reverseInt(num);
+		System.out.println(reverseInt(num));
 	}
 	
-	public static void reverseInt(int n) {
+	public static int reverseInt(int n) {
 		
 		int temp = 0, holder = n;
 		
@@ -25,6 +25,7 @@ public class PalindromeInteger {
 		else {
 			System.out.println("Integer is not a palindrome");
 		}
+		return temp;
 	}
 
 }

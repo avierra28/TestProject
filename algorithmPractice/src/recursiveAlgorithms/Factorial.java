@@ -14,6 +14,7 @@ public class Factorial {
 		iterativeApproach(num);
 		System.out.println("Recursive: " + recursiveApproach(num));
 		
+		scanner.close();
 	}
 	
 	public static void iterativeApproach(int n) {

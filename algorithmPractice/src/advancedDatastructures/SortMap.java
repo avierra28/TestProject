@@ -21,6 +21,7 @@ public class SortMap {
 		hashMap.put("String 3", 56);
 		hashMap.put("String 21", 702);
 		hashMap.put("String 89", 991);
+		hashMap.put("String 90", 991);
 		hashMap.put("String 32", 902);
 		hashMap.put("String 1", 45);
 		hashMap.put("String 82", 23);
