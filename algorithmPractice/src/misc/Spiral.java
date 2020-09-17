@@ -25,18 +25,7 @@ public class Spiral
 		// Print out the spiral.
 		printSpiral(numDimension);
 		
-		try 
-		{
-			FileWriter myFile = new FileWriter("spiral.txt");
-
-			System.out.println("\nFile created");
-			myFile.write(spiralString);
-			
-			myFile.close();
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+		writeToFile();
 
 	}
 	
@@ -107,6 +96,22 @@ public class Spiral
 			}
 			spiralString += "\n";
 			System.out.println();
+		}
+	}
+	
+	public static void writeToFile() {
+		try 
+		{
+			FileWriter myFile = new FileWriter("spiral.txt", true);
+
+			System.out.println("\nFile created/Appended");
+			myFile.write("\n");
+			myFile.write(spiralString);
+			
+			myFile.close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
 
