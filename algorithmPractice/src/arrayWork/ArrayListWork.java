@@ -1,7 +1,5 @@
 package arrayWork;
 
-import static org.hamcrest.CoreMatchers.nullValue;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
