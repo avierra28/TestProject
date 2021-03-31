@@ -17,6 +17,9 @@ public class RecordBO extends Information implements Record {
 	 * Pretty cool!
 	 */
 
+	/*
+	 * This is a really big change!!!
+	 */
 	private Validations myValidations;
 
 	@Autowired
