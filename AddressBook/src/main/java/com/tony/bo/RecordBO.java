@@ -12,6 +12,10 @@ import com.tony.vo.Bean;
 @Service
 @Component
 public class RecordBO extends Information implements Record {
+	
+	/*
+	 * Pretty cool!
+	 */
 
 	private Validations myValidations;
 
