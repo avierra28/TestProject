@@ -6,6 +6,9 @@ import java.util.regex.Pattern;
  * Wondering what this is.
  */
 // Testing this
+
+import java.applet.*;
+
 import org.springframework.stereotype.Component;
 
 @Component
