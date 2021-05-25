@@ -7,6 +7,7 @@ public class ProductDifference {
 		int[] nums = {1, 5, 4, 5};
 		
 		System.out.println(number(nums));
+		System.out.println("This is pretty cool!! :)");
 	}
 	
 	public static int number(int[] arr) {
