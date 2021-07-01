@@ -38,7 +38,8 @@ public class Employee
 	
 	@Override
 	public String toString() {
-		return "Employee [eid=" + eid + ", ename=" + ename + ", eaddressString=" + eaddressString + "]";
+		
+		return String.format("eid = %s, ename = %s, eaddress = %s", eid, ename, eaddressString);
 	}
 	
 	public void myInit()
