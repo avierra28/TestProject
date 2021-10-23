@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class DecimalBinary {
 
 	public static void main(String[] args) {
+		/*
+		 * Testing this change on my new machine.
+		 */
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.print("Enter an integer: ");
