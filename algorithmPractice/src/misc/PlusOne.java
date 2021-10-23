@@ -1,6 +1,8 @@
 package misc;
 
 import java.util.Arrays;
+import java.util.Hashtable;
+import java.util.LinkedList;
 
 public class PlusOne {
 
@@ -15,6 +17,10 @@ public class PlusOne {
 		/*
 		 * Making changes here.
 		 */
+		
+		Hashtable<Integer, LinkedList<String>> myHashtable = new Hashtable<Integer, LinkedList<String>>();
+		
+		
 
 	}
 
