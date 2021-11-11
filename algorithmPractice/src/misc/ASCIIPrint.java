@@ -1,5 +1,7 @@
 package misc;
 
+import java.util.Hashtable;
+
 public class ASCIIPrint {
 	
 	/*
@@ -8,6 +10,16 @@ public class ASCIIPrint {
 	 */
 
 	public static void main(String[] args) {
+		
+		/*
+		 * These will be just comments.
+		 * 
+		 */
+		Hashtable<Integer, String> myHashtable = new Hashtable<Integer, String>();
+		
+		myHashtable.put(3, "This is pretty cool!");
+		
+		System.out.println(myHashtable);
 
 		int counter = 0;
 		char start = ' ';
