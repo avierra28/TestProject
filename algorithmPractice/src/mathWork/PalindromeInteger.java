@@ -1,12 +1,23 @@
 package mathWork;
 
+import java.util.Scanner;
+
 public class PalindromeInteger {
 
 	public static void main(String[] args) {
 
 		int num = 15451;
+		Scanner myScanner = new Scanner(System.in);
 		
-		System.out.println(reverseInt(num));
+		
+		/*
+		 * Entering the option for the user to input his own number,
+		 * instead of statically sending a number preinputted.
+		 */
+		System.out.println("Enter an integer: ");
+		int number = myScanner.nextInt();
+		
+		System.out.println(reverseInt(number));
 	}
 	
 	public static int reverseInt(int n) {
