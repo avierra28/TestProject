@@ -9,6 +9,9 @@ public class Permutations {
 
 	public static void main(String[] args)
 	{
+		/*
+		 * This is pretty cool!!
+		 */
 		Scanner scanner = new Scanner(System.in);
 		myList = new ArrayList<String>();
 		
