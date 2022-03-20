@@ -26,4 +26,7 @@ public class GCD {
 		return func1(n2, n1%n2);
 	}
 
+	/*
+	 * Typing this in here.
+	 */
 }
