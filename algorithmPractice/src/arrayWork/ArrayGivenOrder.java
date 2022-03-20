@@ -2,6 +2,11 @@ package arrayWork;
 
 import java.util.LinkedList;
 
+/*
+ * Adding an explanation right here!
+ *  :) :) :)
+ */
+
 public class ArrayGivenOrder {
 
 	public static void main(String[] args) {
