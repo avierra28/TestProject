@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 /*
  * Adding an explanation right here!
- *  :) :) :)
+ *  :) :) :) :)
  */
 
 public class ArrayGivenOrder {
