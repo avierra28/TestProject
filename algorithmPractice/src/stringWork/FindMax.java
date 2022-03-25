@@ -16,7 +16,7 @@ public class FindMax {
 		myList = new ArrayList<>();
 
 
-		File myFile = new File("/Users/tonyvierra/git/My-Repository/algorithmPractice/src/stringWork/wordFile.txt");
+		File myFile = new File("C:\\Users\\Anthony\\git\\My-Repository\\algorithmPractice\\src\\stringWork\\MaxWordFile.txt");
 		myScanner = new Scanner(myFile);
 
 		// Load this into our list.
