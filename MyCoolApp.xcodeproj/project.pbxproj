@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		92C376282CA78B6D006DEB03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C3760E2CA78B69006DEB03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C376152CA78B69006DEB03;
+			remoteInfo = MyCoolApp;
+		};
+		92C376322CA78B6D006DEB03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C3760E2CA78B69006DEB03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C376152CA78B69006DEB03;
+			remoteInfo = MyCoolApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92C376162CA78B69006DEB03 /* MyCoolApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoolApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C376272CA78B6D006DEB03 /* MyCoolAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCoolAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C376312CA78B6D006DEB03 /* MyCoolAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCoolAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		92C376182CA78B69006DEB03 /* MyCoolApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyCoolApp;
+			sourceTree = "<group>";
+		};
+		92C3762A2CA78B6D006DEB03 /* MyCoolAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyCoolAppTests;
+			sourceTree = "<group>";
+		};
+		92C376342CA78B6D006DEB03 /* MyCoolAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyCoolAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C376132CA78B69006DEB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C376242CA78B6D006DEB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C3762E2CA78B6D006DEB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92C3760D2CA78B69006DEB03 = {
+			isa = PBXGroup;
+			children = (
+				92C376182CA78B69006DEB03 /* MyCoolApp */,
+				92C3762A2CA78B6D006DEB03 /* MyCoolAppTests */,
+				92C376342CA78B6D006DEB03 /* MyCoolAppUITests */,
+				92C376172CA78B69006DEB03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C376172CA78B69006DEB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C376162CA78B69006DEB03 /* MyCoolApp.app */,
+				92C376272CA78B6D006DEB03 /* MyCoolAppTests.xctest */,
+				92C376312CA78B6D006DEB03 /* MyCoolAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C376152CA78B69006DEB03 /* MyCoolApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C3763B2CA78B6D006DEB03 /* Build configuration list for PBXNativeTarget "MyCoolApp" */;
+			buildPhases = (
+				92C376122CA78B69006DEB03 /* Sources */,
+				92C376132CA78B69006DEB03 /* Frameworks */,
+				92C376142CA78B69006DEB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				92C376182CA78B69006DEB03 /* MyCoolApp */,
+			);
+			name = MyCoolApp;
+			packageProductDependencies = (
+			);
+			productName = MyCoolApp;
+			productReference = 92C376162CA78B69006DEB03 /* MyCoolApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92C376262CA78B6D006DEB03 /* MyCoolAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C3763E2CA78B6D006DEB03 /* Build configuration list for PBXNativeTarget "MyCoolAppTests" */;
+			buildPhases = (
+				92C376232CA78B6D006DEB03 /* Sources */,
+				92C376242CA78B6D006DEB03 /* Frameworks */,
+				92C376252CA78B6D006DEB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C376292CA78B6D006DEB03 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92C3762A2CA78B6D006DEB03 /* MyCoolAppTests */,
+			);
+			name = MyCoolAppTests;
+			packageProductDependencies = (
+			);
+			productName = MyCoolAppTests;
+			productReference = 92C376272CA78B6D006DEB03 /* MyCoolAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92C376302CA78B6D006DEB03 /* MyCoolAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C376412CA78B6D006DEB03 /* Build configuration list for PBXNativeTarget "MyCoolAppUITests" */;
+			buildPhases = (
+				92C3762D2CA78B6D006DEB03 /* Sources */,
+				92C3762E2CA78B6D006DEB03 /* Frameworks */,
+				92C3762F2CA78B6D006DEB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C376332CA78B6D006DEB03 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92C376342CA78B6D006DEB03 /* MyCoolAppUITests */,
+			);
+			name = MyCoolAppUITests;
+			packageProductDependencies = (
+			);
+			productName = MyCoolAppUITests;
+			productReference = 92C376312CA78B6D006DEB03 /* MyCoolAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C3760E2CA78B69006DEB03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					92C376152CA78B69006DEB03 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					92C376262CA78B6D006DEB03 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 92C376152CA78B69006DEB03;
+					};
+					92C376302CA78B6D006DEB03 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 92C376152CA78B69006DEB03;
+					};
+				};
+			};
+			buildConfigurationList = 92C376112CA78B69006DEB03 /* Build configuration list for PBXProject "MyCoolApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92C3760D2CA78B69006DEB03;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 92C376172CA78B69006DEB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C376152CA78B69006DEB03 /* MyCoolApp */,
+				92C376262CA78B6D006DEB03 /* MyCoolAppTests */,
+				92C376302CA78B6D006DEB03 /* MyCoolAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C376142CA78B69006DEB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C376252CA78B6D006DEB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C3762F2CA78B6D006DEB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C376122CA78B69006DEB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C376232CA78B6D006DEB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C3762D2CA78B6D006DEB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92C376292CA78B6D006DEB03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C376152CA78B69006DEB03 /* MyCoolApp */;
+			targetProxy = 92C376282CA78B6D006DEB03 /* PBXContainerItemProxy */;
+		};
+		92C376332CA78B6D006DEB03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C376152CA78B69006DEB03 /* MyCoolApp */;
+			targetProxy = 92C376322CA78B6D006DEB03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92C376392CA78B6D006DEB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92C3763A2CA78B6D006DEB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		92C3763C2CA78B6D006DEB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyCoolApp/MyCoolApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyCoolApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.MyCoolApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		92C3763D2CA78B6D006DEB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyCoolApp/MyCoolApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyCoolApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.MyCoolApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		92C3763F2CA78B6D006DEB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.MyCoolAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCoolApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyCoolApp";
+			};
+			name = Debug;
+		};
+		92C376402CA78B6D006DEB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.MyCoolAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCoolApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyCoolApp";
+			};
+			name = Release;
+		};
+		92C376422CA78B6D006DEB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.MyCoolAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MyCoolApp;
+			};
+			name = Debug;
+		};
+		92C376432CA78B6D006DEB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tony.MyCoolAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MyCoolApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C376112CA78B69006DEB03 /* Build configuration list for PBXProject "MyCoolApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C376392CA78B6D006DEB03 /* Debug */,
+				92C3763A2CA78B6D006DEB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C3763B2CA78B6D006DEB03 /* Build configuration list for PBXNativeTarget "MyCoolApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C3763C2CA78B6D006DEB03 /* Debug */,
+				92C3763D2CA78B6D006DEB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C3763E2CA78B6D006DEB03 /* Build configuration list for PBXNativeTarget "MyCoolAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C3763F2CA78B6D006DEB03 /* Debug */,
+				92C376402CA78B6D006DEB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C376412CA78B6D006DEB03 /* Build configuration list for PBXNativeTarget "MyCoolAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C376422CA78B6D006DEB03 /* Debug */,
+				92C376432CA78B6D006DEB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92C3760E2CA78B69006DEB03 /* Project object */;
+}
